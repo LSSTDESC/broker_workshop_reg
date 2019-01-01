@@ -103,10 +103,8 @@ body {
 
 <body>
   <div class="container">
-  <h2>Registration for the 2019 Winter Berkeley DESC meeting</h2>
-  The registration fee for the collaboration meeting is <u><i>$100</i></u>, which
-  covers attendance to the 5-day meeting and coffee breaks. Fees do not cover a
-  Collaboration Meeting Dinner, which is still undetermined.
+  <h2>Registration for the DESC Broker Meeting, Berkeley, 2019</h2>
+  There is no registration fee.
   <br>
   <br>
   <form action="" method="POST" id="main_form">
@@ -153,7 +151,14 @@ body {
          </label>
        </div>
       </div>
-
+    <div class="form-group">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="visa" name="visa">
+        <label class="form-check-label" for="visa">
+        Check if you are a citizen of Iran/Sudan/Syria/Democratic People' Republic of Korea
+         </label>
+       </div>
+      </div>
     <hr>
     <h5>Badge information</h5>
     <br>
@@ -193,7 +198,7 @@ body {
             <span id="event-s">Collaboration Meeting, Feb 25-Mar 1 2019</span>
           </div>
           <div id="location-d">
-            <span id="location-s">International House, Berkeley</span>
+            <span id="location-s">LBNL</span>
           </div>
           <div id="logo1" class="logo"></div>
           <div id="logo2" class="logo"></div>
@@ -203,31 +208,6 @@ body {
 
     <hr>
     <h5>Logistics</h5>
-    <div class="form-group">
-      <label for="inputAttendance">What days will you attend?</label>
-      <div id="Attendance">
-      <div class="form-check form-check-inline" id="inputAttendance">
-        <input class="form-check-input" type="checkbox" name="attend_mon" id="attend_mon">
-        <label class="form-check-label" for="attend_mon">Monday (DE School)</label>
-      </div>
-      <div class="form-check form-check-inline">
-        <input class="form-check-input" type="checkbox" name="attend_tue" id="attend_tue">
-        <label class="form-check-label" for="attend_tue">Tuesday</label>
-      </div>
-      <div class="form-check form-check-inline">
-        <input class="form-check-input" type="checkbox"  name="attend_wed" id="attend_wed">
-        <label class="form-check-label" for="attend_wed">Wednesday</label>
-      </div>
-      <div class="form-check form-check-inline">
-        <input class="form-check-input" type="checkbox"  name="attend_thu" id="attend_thu">
-        <label class="form-check-label" for="attend_thu">Thursday</label>
-      </div>
-      <div class="form-check form-check-inline">
-        <input class="form-check-input" type="checkbox" name="attend_fri" id="attend_fri">
-        <label class="form-check-label" for="attend_fri">Friday (Hack day)</label>
-      </div>
-        </div>
-    </div>
 
     <div class="form-group">
        <label for="carpooling">Will you be driving a car during the meeting and can help with carpooling?</label>
@@ -256,10 +236,6 @@ body {
           <div class="invalid-feedback">You must agree to the code of conduct before registering.</div>
       </div>
     </div>
-    <div class="form-group" id="register_button">
-      <button id="register" class="btn btn-primary" type="button">Proceed to payment</button>
-      <small class="form-text text-muted">Please disable adblockers if you encouter any difficulties at checkout.</small>
-  </div>
     <input type="hidden" name="secret" id="secret" value=""/>
     <input type="hidden" name="registration_complete" id="registration_complete" value="false"/>
   </form>
